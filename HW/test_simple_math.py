@@ -1,6 +1,6 @@
 import pytest
 
-from HW1.simple_math import SimpleMath
+from HW.simple_math import SimpleMath
 
 
 @pytest.fixture
