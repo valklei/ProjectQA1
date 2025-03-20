@@ -3,7 +3,7 @@ import os
 
 from google import genai
 
-api_key = 'AIzaSyADpDYaI6Y1AWYisPdYDWSd8eWcQ-bnoWY'
+api_key = ''
 # Загрузка API-ключа из переменной окружения
 #api_key = os.getenv("GEMINI_API_KEY")
 # Создание клиента API

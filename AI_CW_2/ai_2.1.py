@@ -3,7 +3,7 @@ import random
 from google import genai
 
 
-api_key = 'AIzaSyClTgBLxK5FR5mrV9cV765QeA4DKeLmHfs'
+api_key = ''
 # Создание клиента API
 client = genai.Client(api_key=api_key)
 hidden_number = str(random.randint(1, 100))

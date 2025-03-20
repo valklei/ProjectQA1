@@ -9,7 +9,7 @@ load_dotenv()
 
 # Получение API-ключа из переменной окружения
 #api_key = os.getenv("GEMINI_API_KEY")
-api_key = 'AIzaSyADpDYaI6Y1AWYisPdYDWSd8eWcQ-bnoWY'
+api_key = ''
 #
 # Инициализация клиента Gemini для работы с API
 client = genai.Client(api_key=api_key)
