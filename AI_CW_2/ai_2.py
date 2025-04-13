@@ -1,11 +1,11 @@
 from google import genai
 import os
-
+import random
 from google import genai
 
-api_key = ''
+
 # Загрузка API-ключа из переменной окружения
-#api_key = os.getenv("GEMINI_API_KEY")
+api_key = os.getenv("GEMINI_API_KEY")
 # Создание клиента API
 client = genai.Client(api_key=api_key)
 # Отправка запроса к модели

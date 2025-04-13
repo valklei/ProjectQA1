@@ -1,9 +1,19 @@
 import random
 
+
+import os
+import faiss
+from dotenv import load_dotenv
 from google import genai
+import numpy as np
+load_dotenv()
+
+# Получаем API-ключ для модели Gemini и Tavily из переменных окружения
+os.environ["GOOGLE_API_KEY"] = os.getenv("GEMINI_API_KEY")
+os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 
 
-api_key = ''
+api_key = 'GEMINI_API_KEY'
 # Создание клиента API
 client = genai.Client(api_key=api_key)
 hidden_number = str(random.randint(1, 100))
